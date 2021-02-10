@@ -6,9 +6,11 @@ body {
   width: 100%;
   float: left;
   padding-bottom: 200px;
+  font-family: 'Lato', sans-serif;
 }
 
 nav {
+  font-family: 'Crimson Pro', serif;
   color: yellow;
   background: black;
   border-bottom: 3px solid white;
