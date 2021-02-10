@@ -4,6 +4,7 @@ body {
   color: white
   margin: 0;
   width: 100%;
+  float: left;
 }
 
 nav {
@@ -34,7 +35,25 @@ a {
   text-transform: uppercase;
 }
 
-a:hover {
+nav a:hover, p a:hover {
   color: black;
   background: white;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+
+h2 {
+  font-size: 30px;
+}
+
+h1, h2 {
+  font-weight: bold;
+}
+
+p {
+  font-size: 18px;
+  margin: 7px auto;
 }
