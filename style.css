@@ -2,12 +2,28 @@ body {
   background:#555;
   text-align:center;
   color: white
+  margin: 0;
+  width: 100%;
 }
 
 nav {
   color: yellow;
+  background: black;
+  border-bottom: 3px solid white;
+  width: 100%;
+  margin: 0;
+  display: inline-block;
+}
+
+ul {
+  list-style-type: none;
 }
 
 nav a {
   color: yellow;
+  text-decoration: none;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
+  text-transform: uppercase;
 }
