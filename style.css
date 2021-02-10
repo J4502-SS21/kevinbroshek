@@ -36,7 +36,7 @@ a {
   text-transform: uppercase;
 }
 
-nav a:hover, p a:hover {
+a:hover, p a:hover {
   color: black;
   background: white;
 }
@@ -50,7 +50,7 @@ h2 {
   font-size: 30px;
 }
 
-h1, h2 {
+h1, h2, h3 {
   font-weight: bold;
 }
 
