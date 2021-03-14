@@ -1,7 +1,7 @@
 body {
-  background:#555;
+  background:#4682b4;
   text-align:center;
-  color: white
+  color: red;
   margin: 0;
   width: 100%;
   float: left;
@@ -11,7 +11,7 @@ body {
 
 nav {
   font-family: 'Crimson Pro', serif;
-  color: yellow;
+  color: red;
   background: black;
   border-bottom: 3px solid white;
   width: 100%;
@@ -30,7 +30,7 @@ li {
 }
 
 a {
-  color: yellow;
+  color: red;
   text-decoration: none;
   font-size: 18px;
   font-style: italic;
@@ -39,7 +39,7 @@ a {
 }
 
 a:hover, p a:hover {
-  color: black;
+  color: blue;
   background: white;
 }
 
@@ -85,5 +85,19 @@ section {
     width: 100%;
     float: left;
   }
-  
+
+}
+
+img {
+  margin: 50px auto;
+  width: 75%;
+  max-width: 800px;
+  min-width: 500px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
 }
