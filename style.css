@@ -1,0 +1,172 @@
+body {
+  background:#555;
+  text-align:center;
+  color: yellow;
+  margin: 0;
+  width: 100%;
+  float: left;
+  padding-bottom: 200px;
+  font-family: 'Lato', sans-serif;
+}
+
+nav {
+  font-family: 'Crimson Pro', serif;
+  color: white;
+  background: black;
+  border-bottom: 3px solid white;
+  width: 100%;
+  margin: 0;
+  display: inline-block;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  width: 33%;
+  float: left;
+  margin: 20px auto;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+a:hover, p a:hover {
+  color: yellow;
+  background: black;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+
+h2, h3 {
+  font-size: 30px;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+}
+
+p {
+  font-size: 18px;
+  margin: 7px auto;
+}
+
+
+img {
+  margin: 50px auto;
+  width: 75%;
+  max-width: 400px;
+  min-width: 200px;
+}
+
+
+section {
+  color:black;
+  background: yellow;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 1px 1px 15px black;
+}
+
+
+@media (max width: 200px) {
+
+  li {
+    width: 100%;
+    float: left;
+  }
+
+}
+
+img {
+  margin: 50px auto;
+  width: 75%;
+  max-width: 300px;
+  min-width: 100px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+ul {
+  display: flex;
+}
+
+ul {
+  flex-direction: column;
+}
+a {
+  display: flex;
+}
+
+a {
+  flex-direction: column;
+}
+
+/* if mobile device max width 380px */
+    @media only screen and (max-device-width: 380px) {
+        .mobile_device_380px{display: flex;}
+        .mobile_device_380px {flex-direction: center}
+        .desktop {display: none;}
+    }
+
+    /* if mobile device max width 480px */
+    @media only screen and (max-device-width: 480px) {
+       .mobile_device_480px{display: flex;}
+       .mobile_device_480px {flex-direction: center}
+
+       .desktop {display: none;}
+    }
+
+    .selectHolder {
+  display: block;
+  position: fixed;
+  width: 100%;
+  padding: 1rem;
+  background-color: #ffffff;
+  top: 0;
+  text-align: center;
+  border-bottom: 1px solid #555;
+}
+
+.button_holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.hideThisDiv {
+  display: none;
+}
+
+.imageGallery {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 500px;
+  margin-top: 30px;
+}
+
+h3 {
+    font-family: 'Crimson Pro', serif;
+    color: yellow;
+    background: black;
+    border-bottom: 3px solid yellow;
+    width: 100%;
+    margin: 0;
+    display: inline-block;
+}
